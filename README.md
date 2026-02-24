@@ -1,0 +1,1 @@
+# ofrp_device_oneplus_ovaltine-fox_12.1
