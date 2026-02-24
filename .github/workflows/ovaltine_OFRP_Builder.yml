@@ -49,7 +49,7 @@ on:
       OF_MAINTAINER:
         description: '输入维护者名称'
         required: true
-        default: 'AviderMin'
+        default: '秋詞'
 
 jobs:
   build:
