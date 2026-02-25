@@ -17,7 +17,7 @@
 #
 # 	Please maintain this if you use this script or any part of it
 #
-FDEVICE="diting"
+FDEVICE="ovaltine"
 #set -o xtrace
 
 fox_get_target_device() {
@@ -41,7 +41,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
  	#OFR build settings & info
  	export FOX_VANILLA_BUILD=1
 	export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
-	export TARGET_DEVICE_ALT="diting"
+	export TARGET_DEVICE_ALT="ovaltine"
 	export FOX_RECOVERY_SYSTEM_PARTITION="/dev/block/mapper/system"
 	export FOX_RECOVERY_VENDOR_PARTITION="/dev/block/mapper/vendor"
 	export FOX_DELETE_INITD_ADDON=1
