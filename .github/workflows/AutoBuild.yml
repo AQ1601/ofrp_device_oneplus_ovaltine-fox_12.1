@@ -6,9 +6,9 @@ name: 🦊 OrangeFox Recovery - 月度自动构建
 # And all Contributors in every repositories I used
 
 on:
-  schedule:
+  #schedule:
     # UTC 16:00 = 北京时间 每月 1 日 00:00
-    - cron: '0 16 1 * *'
+    #- cron: '0 16 1 * *'
   workflow_dispatch:
 
 jobs:
